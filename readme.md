@@ -10,9 +10,6 @@ Este é um desafio de programação para criar um simples sistema de gerenciamen
 - Remover uma tarefa existente.
 
 
-
-#Teste commit Cleber
-
 ## Tecnologias Utilizadas
 - Java
 - Vontade de aprender
