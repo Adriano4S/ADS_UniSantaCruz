@@ -7,6 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProjetoAdsApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProjetoAdsApplication.class, args);
+
+        // Criar uma instância de Task
+        Task task = new Task("Título da Tarefa", "Descrição da Tarefa", "Em andamento");
+
+        // Imprimir o conteúdo da instância de Task
+        System.out.println(task);
     }
 }
 
@@ -54,6 +60,3 @@ class Task {
                 '}';
     }
 }
-
-
-
